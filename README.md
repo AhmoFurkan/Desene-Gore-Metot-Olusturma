@@ -1,4 +1,3 @@
-# denemer2
+# Gelismis-Hesap-Makinesi
 
-asdasd
-sadasdas d asaaa
+https://app.patika.dev/ahmetfurkan
