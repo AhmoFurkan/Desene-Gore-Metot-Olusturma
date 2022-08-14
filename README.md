@@ -1,7 +1,5 @@
-# Recursive Metotlar ile Üslü Sayı Hesaplama
-<<<<<<< HEAD
+# Desene Göre Metot Oluşturma
+Java dilinde kullanıcıdan alınan n değerine göre aşağıdaki kurala uyan döngü kullanmadan bir "Recursive" metot yazın.
 
 https://app.patika.dev/ahmetfurkan
 
-=======
->>>>>>> 7a33ef802f07437d6eeefdc1759cd76123e31363
