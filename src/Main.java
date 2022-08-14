@@ -2,27 +2,26 @@ import java.util.Scanner;
 
 public class Main {
 
-    static int power(int a, int b) {
-        int result = 1;
-        for (int i = 1; i <= b; i++){
-            result*=a;
+    static void number(int a) {
+        if (a > 0) {
+            System.out.print(" " + a);
+
+            number(a-5);
 
         }
-        return result;
+        System.out.print(" " + a );
+
     }
 
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print(" Taban değeri giriniz :");
-        int tab = scan.nextInt();
+        Scanner inp = new Scanner(System.in);
 
-        System.out.print(" Üs değeri giriniz  :");
-        int us = scan.nextInt();
+        System.out.print("N Sayısı :");
+        int N = inp.nextInt();
 
-        System.out.println(" Sonuç : " +  power(tab,us));
-
+        number(N);
 
     }
 
- }
+}
